@@ -6,7 +6,8 @@ jobs:
     name: Running CI
     runs-on: ubuntu-latest
     container:
-      image: node:20
+#       image: node:20
+      image: varghesevibin/my-node-java-app:0.0.1
     steps:
       - name: Checkout code
         uses: actions/checkout@v3.0.2
